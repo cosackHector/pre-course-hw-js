@@ -4,3 +4,5 @@ let passport = {
 };
 let newObj = {...passport}
 newObj.name = 'Ivan'
+console.log(passport.name);
+console.log(newObj.name);
